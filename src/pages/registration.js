@@ -21,7 +21,7 @@ const handleChange = (e) => {
 const handleSubmit = (e) => {
 e.preventDefault(); // Prevent the form from submitting normally
 // Make a POST request to the backend
-axios.post('http://chamaththa.infinitoapparel.ca/api/users/register', formData)
+axios.post('https://chamaththa.infinitoapparel.ca/api/users/register', formData)
    .then(response => {
        console.log('registration successful:', response?.data);
        // You might want to save the token in localStorage or context for further requests
