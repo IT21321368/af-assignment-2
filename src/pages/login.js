@@ -25,7 +25,7 @@ const handleSubmit = (e) => {
            console.log('Login successful:', response?.data);
            // You might want to save the token in localStorage or context for further requests
            localStorage.setItem('token', response.data.token);
-           navigate('/'); 
+           navigate('/home'); 
            
        })
        .catch(error => {

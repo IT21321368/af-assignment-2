@@ -12,9 +12,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/registration" element={<RegistrationForm />} />
-        <Route path="/login" element={<LoginForm />} />
+        <Route path="/" element={<LoginForm />} />
         <Route path="/apod" element={<PictureOfDay />} />
         <Route path="/MasRoverPhoto" element={<MasRoverPhoto />} />
         <Route path="/EpicImage" element={<EpicImage />} />
